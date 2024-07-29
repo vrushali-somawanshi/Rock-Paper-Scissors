@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem; /* text moves vertically center*/
+}
+
+
+.choice{    /* individual img div prpperty choice change*/
+    height: auto;
+    width: 40%;
+    border-radius: 100%;
+    display: flex; /* img moves in one line*/
+    justify-content: center; /*vertically horizontally center img*/
+    align-items: center;
+    
+   }
+
+.img{
+    height: 165px;
+    max-width:165px;
+    object-fit: cover;  /* img show clear in div not stretech so use object-fit*/
+    border-radius: 50%;
+}
+
+.choices{       /* all img property change*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#user-score,#comp-score{
+    font-size: 4rem;
+    
+}
+
+.msg-container{
+    /* margin-top: 1rem; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+
+}
+
+#msg{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display:inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+
+}
+
